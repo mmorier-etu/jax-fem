@@ -17,7 +17,7 @@ import time
 import scipy
 
 #from jax.config import config
-config.update("jax_enable_x64", True)
+jax.config.update("jax_enable_x64", True)
 
 
 def compute_filter_kd_tree(fe):
